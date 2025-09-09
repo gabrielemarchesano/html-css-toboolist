@@ -10,6 +10,9 @@
   --toboo-sales_color: #a3d116;
 }
 
+html {
+  font-family:Arial, Helvetica, sans-serif ;
+}
 
 body {
   margin: 0;
@@ -30,6 +33,10 @@ h2 {
   color: var(--toboo-text_color);
 }
 
+p {
+  display: inline;
+  font-size: 14px;
+}
 
 
 .logo {
