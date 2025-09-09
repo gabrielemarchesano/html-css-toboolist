@@ -19,6 +19,11 @@ header {
   background-color: var(--toboo-el_color);
 }
 
+h2 {
+  font-size: 20px;
+  color: var(--toboo-text_color);
+}
+
 
 .banner {
   padding: 2px;
@@ -66,4 +71,57 @@ header {
   width: 6rem;
   border-radius: 11%;
   border: 1px solid rgb(199, 198, 198);
+}
+
+.check {
+display: inline-block;
+
+text-align: center;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+padding: 2px;
+
+}
+
+.true {
+  border: solid 1px greenyellow;
+  color: greenyellow;
+}
+
+.false {
+  border: solid 1px red;
+  color: red;
+}
+
+.b_section {
+  color: var(--toboo-el_color);
+  width: fit-content;
+  border-radius: 10%;
+  border: 1px;
+  padding: 5px;
+}
+
+.editorial {
+  background-color: var(--toboo-button_color);
+}
+
+.goals {
+  background-color: var(--toboo-goals_color);
+}
+
+.recruiting {
+  background-color: var(--toboo-recruiting_color);
+}
+
+.mobile {
+  background-color: var(--toboo-mobile_color);
+}
+
+.website {
+  background-color: var(--toboo-website_color);
+}
+
+.sales {
+  background-color: var(--toboo-sales_color);
 }
