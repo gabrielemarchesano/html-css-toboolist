@@ -54,6 +54,7 @@ p {
   width: 70%;
   height: 90%;
   background-color: var(--toboo-el_color);
+  border-radius: 10px;
 }
 
 .button-container {
