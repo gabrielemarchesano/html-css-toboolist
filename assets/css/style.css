@@ -19,6 +19,7 @@ header {
   background-color: var(--toboo-el_color);
 }
 
+
 .banner {
   padding: 2px;
 }
@@ -28,12 +29,41 @@ header {
   height: 40px;
 }
 
-.title{
+.title {
   font-size: 2rem;
 }
 
-.container{
+.container {
   margin: 20px auto 5px;
   width: 70%;
   background-color: var(--toboo-el_color);
+}
+
+.button-container {
+  border-bottom: 1px solid lightgrey;
+}
+
+.buttons {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.active {
+  text-align: center;
+  color: var(--toboo-el_color);
+  background-color: var(--toboo-button_color);
+  height: 30px;
+  width: 5rem;
+  border-radius: 11%;
+  border: var(--toboo-button_color)
+}
+
+.inactive {
+  text-align: center;
+  color: lightgray;
+  background-color: var(--toboo-el_color);
+  height: 30px;
+  width: 6rem;
+  border-radius: 11%;
+  border: 1px solid rgb(199, 198, 198);
 }
