@@ -1,8 +1,39 @@
 :root {
   --toboo-bg_color: #f6f8f9;
+  --toboo-el_color: white;
+  --toboo-text_color: #494e56;
+  --toboo-button_color: #14aaf5;
+  --toboo-goals_color: #ab5de6;
+  --toboo-recruiting_color: #2cc6ab;
+  --toboo-mobile_color: #ff9b00;
+  --toboo-website_color: #ec4a9d;
+  --toboo-sales_color: #a3d116;
 }
 
 body {
   margin: 0;
   background-color: var(--toboo-bg_color);
+}
+
+header {
+  background-color: var(--toboo-el_color);
+}
+
+.banner {
+  padding: 2px;
+}
+
+.logo {
+  margin: 5px;
+  height: 40px;
+}
+
+.title{
+  font-size: 2rem;
+}
+
+.container{
+  margin: 20px auto 5px;
+  width: 70%;
+  background-color: var(--toboo-el_color);
 }
